@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/voyage-schedules",
+      "handler": "voyage-schedule.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/voyage-schedules/count",
+      "handler": "voyage-schedule.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/voyage-schedules/:id",
+      "handler": "voyage-schedule.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/voyage-schedules",
+      "handler": "voyage-schedule.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/voyage-schedules/:id",
+      "handler": "voyage-schedule.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/voyage-schedules/:id",
+      "handler": "voyage-schedule.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
